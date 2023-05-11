@@ -5,7 +5,7 @@ import React from 'react';
 const Head = () => {
     return (
         <section className='bg-teal-500 text-white py-2.5'>
-            <div className=''>
+            <div className='flex justify-between'>
                 <div className=''>
                     <FontAwesomeIcon className='mr-2' icon={faPhoneVolume} />
                     <label className='text-sm mr-6'>+000 111 999</label>
