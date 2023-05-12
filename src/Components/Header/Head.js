@@ -5,14 +5,14 @@ import React from 'react';
 const Head = () => {
     return (
         <section className='bg-teal-500 text-white py-2.5'>
-            <div className='flex justify-between'>
-                <div className=''>
+            <div className=' m-auto flex justify-between '>
+                <div className='w-1/2'>
                     <FontAwesomeIcon className='mr-2' icon={faPhoneVolume} />
                     <label className='text-sm mr-6'>+000 111 999</label>
                     <FontAwesomeIcon className='mr-2' icon={faEnvelope} />
                     <label className='text-sm mr-6'>demo@email.com</label>
                 </div>
-                <div className=''>
+                <div className='text-right w-1/2'>
                     <label className='text-sm mr-6'>Web Faq's</label>
                     <label className='text-sm mr-6'>Need Help</label>
                     <span>icon</span>

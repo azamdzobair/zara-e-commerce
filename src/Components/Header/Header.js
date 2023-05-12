@@ -6,7 +6,7 @@ import Search from './Search';
 const Header = () => {
     return (
         <div>
-            <h1>Zara</h1>
+            <h1 className='text-6xl text-center text-red-800 mb-8 font-extrabold'>Under Developing</h1>
             <Head></Head>
             <Navbar></Navbar>
             <Search></Search>
